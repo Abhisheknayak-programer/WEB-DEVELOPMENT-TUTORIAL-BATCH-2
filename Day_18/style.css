@@ -1,0 +1,50 @@
+.box {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inner_box {
+  border: 10px solid blue;
+  height: 300px;
+  width: 300px;
+}
+
+/* Breakpoints for Media Queries */
+/* 1400px and Above for Laptop and Desktops */
+/* 1200px Small Sized Laptop */
+/* 992px Tablet */
+/* 768px Small Sized Tablet */
+/* 576px Mobile */
+/* 360px Small Sized Mobile */
+
+@media (max-width: 1200px) {
+  .inner_box {
+    background-color: crimson;
+    border-radius: 50%;
+    border-color: violet;
+  }
+}
+
+@media (max-width: 992px) {
+  .inner_box {
+    width: 200px;
+  }
+
+  .box {
+    background-color: lightgreen;
+    padding: 2rem;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 456px) {
+  .box {
+    background-color: aqua;
+  }
+}
+
+/* HOMEWORK
+1. Make a Image Gallery and make it responsive using media-queries for small sized laptops, tablets and mobiles */
