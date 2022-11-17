@@ -1,0 +1,25 @@
+.btn {
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 30px;
+  background: #1e1e1e;
+}
+
+.box {
+  height: 300px;
+  width: 450px;
+  border: 1px solid red;
+  margin-bottom: 2rem;
+}
+
+.active1 {
+  background: url("https://images.pexels.com/photos/62627/niagara-cases-water-waterfall-62627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    center center/cover;
+}
+
+.active2 {
+  background: url("https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    center center/cover;
+}
