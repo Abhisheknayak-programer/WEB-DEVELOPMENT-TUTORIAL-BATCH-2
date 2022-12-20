@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #222;
+  padding: 2rem;
+}
+
+.company_part img {
+  width: 200px;
+}
+
+.link_part a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.link_part a:hover {
+  color: crimson;
+}
+
+.link_part h3 {
+  color: crimson;
+}
